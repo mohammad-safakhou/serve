@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	port := flag.String("p", "8100", "port to serve on")
+	port := flag.String("p", "8100", "port to app on")
 	directory := flag.String("d", ".", "the directory of static file to host")
 	flag.Parse()
 
